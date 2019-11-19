@@ -13,7 +13,7 @@ class DbConfiguration extends Migration
      */
     public function up()
     {
-        Schema::create('db_configuration', function (Blueprint $table) {
+        Schema::create('db_configurations', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('driver');
             $table->string('host');
