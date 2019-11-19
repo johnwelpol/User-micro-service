@@ -23,9 +23,9 @@ $app = new Laravel\Lumen\Application(
 
 $app->configure("database");
 
-// $app->withFacades();
+$app->withFacades();
 
-// $app->withEloquent();
+$app->withEloquent();
 
 /*
 |--------------------------------------------------------------------------
