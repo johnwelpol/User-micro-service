@@ -14,4 +14,4 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->get('/index','Controller@index');
+$router->post('/set-database-connection','Controller@setDatabaseConnection');
